@@ -1,3 +1,6 @@
-# see how removeprefix() works
 string = "   What a beautiful world! Helloooooo!"
-print(string.removeprefix(' '))
+
+# how removeprefix() works
+print(string.removeprefix('   W'))
+
+# same functionality without using removeprefix()
