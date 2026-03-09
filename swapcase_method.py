@@ -14,3 +14,4 @@ def swapcase(string):
     print(string)
 
 swapcase(large_string)
+swapcase(small_string)
