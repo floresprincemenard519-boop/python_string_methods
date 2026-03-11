@@ -4,5 +4,9 @@
 # print the lowest 
 list = []
 while True:
-    numbers = float(input("Input a number please: "))
-    list.append(numbers)
+    try:
+        numbers = float(input("Input a number please: "))
+        list.append(numbers)
+    except ValueError:
+        print(min(list))
+        break
