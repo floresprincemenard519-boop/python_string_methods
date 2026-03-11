@@ -1,2 +1,3 @@
-# get all the numbers till 100
-# print them if they there is no remainder when divided with 10 and 5
+for num in range(0,100):
+    if num % 10 != 0 and num % 5 != 0:
+        print(num, end=" ") 
