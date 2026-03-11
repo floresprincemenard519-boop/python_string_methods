@@ -1,4 +1,9 @@
-# create an infinite loop 
-# get numbers
-# store all numbers
-# get the average when the loop is broken
+list = []
+
+while True:
+    try:
+        numbers = float(input("Please give me a number: "))
+        list.append(numbers)
+    except ValueError:
+        print(sum(list)/len(list))
+        break
