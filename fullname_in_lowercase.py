@@ -1,2 +1,3 @@
-# get fullname
-# print in lower
+fullname = input("Please input your fullname: ")
+
+print(fullname.lower())
