@@ -5,6 +5,8 @@
 # print it 
 
 string = "The rindex('p') of this string should print 38."
-print(len(string), end=' ')
-for i in range(len(string), -1, -1):
-    print(i)
+
+for i in range(len(string)-1, -1, -1):
+    if string[i] == 'p':
+        print(i)
+        break
