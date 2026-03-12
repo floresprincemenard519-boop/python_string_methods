@@ -8,4 +8,10 @@ while True:
         numbers = float(input("Please input a number: "))
         list[numbers] = list.get(numbers,0) + 1
     except ValueError:
-        
+        for number, count in list.items():
+            if count > highest_count:
+                highest_count = count
+                highest_number = number
+    print(highest_number)
+    break
+    
